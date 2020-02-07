@@ -1,0 +1,20 @@
+$clr_bgGradation: linear-gradient(135deg, #2f6ee5 0%, #1197bf 100%);
+
+$clr_accentcolor: #F29C85;
+$clr_basecolor: #FAEFEC;
+
+
+
+
+@mixin c-section-title {
+  font-family: 'Fredoka One', cursive;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  font-size: 2rem;
+  @include desktop {
+    padding: 90px 0px 40px 0px;
+    text-align: center;
+    font-size: 5rem;
+  }
+}
