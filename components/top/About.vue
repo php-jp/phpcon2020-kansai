@@ -22,22 +22,17 @@
 
 <style lang="scss" scoped>
 @import "~/assets/scss/common.scss";
-
+  
 .p-about {
   margin: 50px auto 0;
   position: relative;
-  // background-image:
-  //         url("~assets/img/about_frame01.png"),
-  //         url("~assets/img/about_frame02.png");
-  background-color: $clr_basecolor;
-  background-size: 15%, 15%, 30%, 30%;
-  background-position: left top, right bottom, 45% 0%, 50% 100%;
-  background-repeat: no-repeat;
   color: $clr_accentcolor;
-
+  background-color: $clr_basecolor;
   @include desktop {
     margin-top: 100px;
-    background-size: 15%, 15%, 15%, 18%;
+    background-image:url("~assets/images/about/about_zou_left.png"),url("~assets/images/about/about_zou_right.png");
+    background-position: bottom 20px left 0px,bottom 20px right 0px;
+    background-repeat: no-repeat;
   }
 
   &_title {
@@ -68,8 +63,8 @@
 
   &_secHeading {
     display: inline-block;
-    width: 248px;
-    height: 22px;
+    //width: 248px;
+    //height: 22px;
     text-align: left;
     letter-spacing: 1.12px;
     font-size: 1.6rem;
@@ -89,8 +84,8 @@
     display: inline-block;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: bold;
-    width: 240px;
-    height: 162px;
+    // width: 240px;
+    //height: 162px;
     text-align: center;
     font-size: 1.2rem;
     line-height: 2;
