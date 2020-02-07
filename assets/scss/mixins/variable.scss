@@ -10,8 +10,11 @@ $clr_basecolor: #FAEFEC;
   font-family: 'Fredoka One', cursive;
   display: inline-block;
   width: 100%;
-  text-align: left;
   font-size: 2rem;
+  font-size: 3rem;
+  padding: 40px 0px 25px 0px;
+  text-align: center;
+  font-size: 3rem;
   @include desktop {
     padding: 90px 0px 40px 0px;
     text-align: center;

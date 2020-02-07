@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="hamburger" transform="translate(-1779 -28)">
+    <g id="グループ_60" data-name="グループ 60" transform="translate(-5 -6)">
+      <rect id="長方形_14" data-name="長方形 14" width="53" height="9" rx="4.5" transform="translate(1798 52)" fill="#f29c85"/>
+      <rect id="長方形_15" data-name="長方形 15" width="53" height="10" rx="5" transform="translate(1798 69)" fill="#f29c85"/>
+      <rect id="長方形_16" data-name="長方形 16" width="53" height="9" rx="4.5" transform="translate(1798 88)" fill="#f29c85"/>
+    </g>
+    <g id="dehaze-24px" transform="translate(1779 28)">
+      <path id="パス_115" data-name="パス 115" d="M0,0H80V80H0Z" fill="none"/>
+    </g>
+  </g>
+</svg>
