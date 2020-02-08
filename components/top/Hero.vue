@@ -1,8 +1,8 @@
 <template>
   <div class="c-hero">
     <div class="c-hero__wrapper c-container">
-      <h2>
-      <img src="@/assets/images/hero/hero_logo.svg" alt="logo-img">
+      <h2 class="c-hero__image">
+        <img class="c-hero__logo" src="@/assets/images/hero/hero_logo.svg" alt="logo-img">
       </h2>
       <p class="c-hero__leadTxt">
         PHPカンファレンスが今年も開催！
@@ -29,8 +29,8 @@ export default {
 
 <style lang="scss" scoped>
 @import "~/assets/scss/common.scss";
- 
- $font-family:"M PLUS Rounded 1c";
+
+$font-family:"M PLUS Rounded 1c";
 
 
   .c-hero {
@@ -41,29 +41,56 @@ export default {
 
     &::before {
       content:"";
+      width: 50%;
+      height: 50%;
+      max-width: 480px;
+      background-size: 100%;
+      background-repeat: no-repeat;
       background-image:url('../../assets/images/hero/hero_zou_left.svg');
-      width:792px;
-      height: 635px;
       display: inline-block;
       position: absolute;
       top:0;
       z-index: -100;
+      @include desktop {
+        content: "";
+        background-image: url('../../assets/images/hero/hero_zou_left.svg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        width:792px;
+        height: 635px;
+        display: inline-block;
+        position: absolute;
+        top:0;
+        z-index: -100;
+      }
     }
 
     &::after {
-       content:"";
+      content:"";
       background-image:url('../../assets/images/hero/hero_zou_right.svg');
-      width:792px;
-      height: 635px;
+      background-repeat: no-repeat;
       display: inline-block;
       position: absolute;
       right:0;
       bottom:0;
       z-index: -100;
+      width: 50%;
+      height: 50%;
+      max-width: 480px;
+      background-size: 100%;
+      @include desktop {
+        content:"";
+        background-image:url('../../assets/images/hero/hero_zou_right.svg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        width:792px;
+        height: 635px;
+        display: inline-block;
+        position: absolute;
+        right:0;
+        bottom:0;
+      }
     }
-
-
-    
 
     &__wrapper {
       max-width: 610px;
@@ -72,12 +99,20 @@ export default {
       padding:0;
     }
 
+    &__logo {
+      width: 60%;
+      height: 60%;
+    }
+
     &__leadTxt  {
       font-size: 25px;
       font-weight: bold;
       margin-top:32px;
-
+      @media screen and (max-width: 480px) {
+        font-size: 15px;
+      }
     }
+
     &__date {
       font-size: 66px;
       line-height: 1;
@@ -107,6 +142,10 @@ export default {
       font-size: 24px;
       font-weight: bold;
       line-height: 1.3;
+      @media screen and (max-width: 480px) {
+        font-size: 15px;
+        line-height: 2;
+      }
     }
 
     &__locationIcon {
