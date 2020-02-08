@@ -147,8 +147,8 @@ $font-family:"M PLUS Rounded 1c";
       height: 17px;
       @include desktop {
         line-height: 2;
-        width: 100%;
-        height: 100%;
+        width: 30px;
+        height: 30px;
       }
     }
 
