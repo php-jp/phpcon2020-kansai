@@ -1,6 +1,8 @@
 # phpcon2020-kansai
 
-> My kryptonian Nuxt.js project
+## netlify
+
+https://phpcon2020.netlify.com/
 
 ## Build Setup
 
