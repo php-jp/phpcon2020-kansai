@@ -129,7 +129,7 @@
   }
 
   &_button {
-    margin-bottom: 70px;
+    margin-bottom: 109px;
     text-align: center;
     @include desktop {
       margin-bottom: unset;
