@@ -39,6 +39,7 @@ $font-family:"M PLUS Rounded 1c";
     width:100%;
     position:relative;
     background-image: url('~assets/images/hero/hero_sp_zou.png');
+    background-repeat: no-repeat;
 
     @include desktop {
       background-image: none;
@@ -131,22 +132,31 @@ $font-family:"M PLUS Rounded 1c";
     &__location {
       font-size: 15px;
       font-weight: bold;
-      line-height: 2;
+      line-height: 1.2;
+      text-align: center;
       @include desktop {
         font-size: 24px;
         line-height: 1.3;
       }
+      
     }
 
     &__locationIcon {
-      line-height: 2;
+      text-align: center;
+      width: 17px;
+      height: 17px;
+      @include desktop {
+        line-height: 2;
+        width: 100%;
+        height: 100%;
+      }
     }
 
     &__announce {
       font-size: 15px;
       font-weight: bold;
       background-color: #FAEFEC;
-      width:280px;
+      min-width:280px;
       display: inline-block;
       margin: 0 auto;
       margin-top:30px;
