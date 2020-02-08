@@ -11,7 +11,7 @@
         5/9
       </date>
       <p class="c-hero__location"><img src="@/assets/images/hero/place-24px.svg" class="c-hero__locationIcon" alt="location-pin" /> ブリーゼプラザ ホール&カンファレンス</p>
-      <p class="c-hero__announce">スポンサー、登壇者募集開始</p>
+      <p class="c-hero__announce">スポンサー、登壇者募集開始！！</p>
       <div class="c-hero__buttons">
         <a href="" class="c-hero__button">スポンサー募集中</a>
         <a href="" class="c-hero__button">登壇者募集中</a>
@@ -38,19 +38,13 @@ $font-family:"M PLUS Rounded 1c";
     color:$clr-accentcolor;
     width:100%;
     position:relative;
+    background-image: url('~assets/images/hero/hero_sp_zou.png');
+
+    @include desktop {
+      background-image: none;
+    }
 
     &::before {
-      content:"";
-      width: 50%;
-      height: 50%;
-      max-width: 480px;
-      background-size: 100%;
-      background-repeat: no-repeat;
-      background-image:url('../../assets/images/hero/hero_zou_left.svg');
-      display: inline-block;
-      position: absolute;
-      top:0;
-      z-index: -100;
       @include desktop {
         content: "";
         background-image: url('../../assets/images/hero/hero_zou_left.svg');
@@ -66,18 +60,6 @@ $font-family:"M PLUS Rounded 1c";
     }
 
     &::after {
-      content:"";
-      background-image:url('../../assets/images/hero/hero_zou_right.svg');
-      background-repeat: no-repeat;
-      display: inline-block;
-      position: absolute;
-      right:0;
-      bottom:0;
-      z-index: -100;
-      width: 50%;
-      height: 50%;
-      max-width: 480px;
-      background-size: 100%;
       @include desktop {
         content:"";
         background-image:url('../../assets/images/hero/hero_zou_right.svg');
@@ -89,6 +71,7 @@ $font-family:"M PLUS Rounded 1c";
         position: absolute;
         right:0;
         bottom:0;
+        z-index: -100;
       }
     }
 
@@ -105,16 +88,16 @@ $font-family:"M PLUS Rounded 1c";
     }
 
     &__leadTxt  {
-      font-size: 25px;
+      @include desktop {
+        font-size: 25px;
+      }
+      font-size: 15px;
       font-weight: bold;
       margin-top:32px;
-      @media screen and (max-width: 480px) {
-        font-size: 15px;
-      }
     }
 
     &__date {
-      font-size: 66px;
+      font-size: 43px;
       line-height: 1;
       font-weight: bold;
       position: relative;
@@ -122,10 +105,17 @@ $font-family:"M PLUS Rounded 1c";
       display: inline-block;
 
       &::after {
+        @include desktop {
+          width:55px;
+          height:55px;
+          font-size: 28px;
+          font-weight: bold;
+        }
         content:"土";
-        width:55px;
-        height:55px;
-        font-size: 28px;
+        width:36px;
+        height:36px;
+        font-size: 19px;
+        font-weight: bold;
         line-height: 1.8;
         border-radius: 50%;
         position: absolute;
@@ -139,12 +129,12 @@ $font-family:"M PLUS Rounded 1c";
     
 
     &__location {
-      font-size: 24px;
+      font-size: 15px;
       font-weight: bold;
-      line-height: 1.3;
-      @media screen and (max-width: 480px) {
-        font-size: 15px;
-        line-height: 2;
+      line-height: 2;
+      @include desktop {
+        font-size: 24px;
+        line-height: 1.3;
       }
     }
 
@@ -153,33 +143,52 @@ $font-family:"M PLUS Rounded 1c";
     }
 
     &__announce {
-      font-size: 23px;
+      font-size: 15px;
       font-weight: bold;
       background-color: #FAEFEC;
-      width:460px;
+      width:280px;
       display: inline-block;
       margin: 0 auto;
-      margin-top:46px;
+      margin-top:30px;
+      @include desktop {
+        width:460px;
+        font-size: 23px;
+        margin-top:46px;
+      }
     }
 
     &__buttons {
-      margin-top:30px;
+      margin: 0 auto;
+      margin-top: 30px;
+      width: 280px;
+      @include desktop {
+        width: 100%;
+      }
     }
 
     &__button {
+      box-sizing: border-box;
       text-decoration: none;
-      font-size: 20px;
+      font-size: 15px;
       color:#fff;
-      width:280px;
       font-weight: bold;
       line-height: 1.4;
-      height: 60px;;
+      height: 40px;
+      padding: 10px 9px 9px 10px;
       background-color: $clr-accentcolor;
-      padding:17px 0;
-      border-radius: 10px;
+      border-radius: 10px 9px 9px 10px;
       display: inline-block;
       &:nth-child(1) {
-        margin-right: 40px;
+        margin-right: 20px;
+        @include desktop {
+          margin-right: 40px;
+        }
+      }
+      @include desktop {
+        width:280px;
+        font-size: 20px;
+        padding:17px 0;
+        height: 60px;
       }
     }
     
