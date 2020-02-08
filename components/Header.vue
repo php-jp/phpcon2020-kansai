@@ -22,10 +22,6 @@
       margin-right: 20px;
       width: 46px;
       height: 46px;
-      @include desktop {
-        width: 100%;
-        height: 100%;
-      }
     }
   }
 }
