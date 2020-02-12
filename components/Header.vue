@@ -14,9 +14,11 @@
 @import "~/assets/scss/common.scss";
 
 .p-header {
+  position: fixed;
+  width:100%;
   // background-color: white; 
-  background-color: rgba( 204, 255, 204, 0 );
-  margin-top: 14px;
+ background-color: rgba( 204, 255, 204, 0 ); 
+
   &__image {
     display: flex;
     &--menu {

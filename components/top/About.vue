@@ -24,12 +24,11 @@
 @import "~/assets/scss/common.scss";
   
 .p-about {
-  margin: 50px auto 0;
+  margin: 0 auto ;
   position: relative;
   color: $clr_accentcolor;
   background-color: $clr_basecolor;
   @include desktop {
-    margin-top: 100px;
     background-image:url("~assets/images/about/about_zou_left.png"),url("~assets/images/about/about_zou_right.png");
     background-position: bottom 20px left 0px,bottom 20px right 0px;
     background-repeat: no-repeat;

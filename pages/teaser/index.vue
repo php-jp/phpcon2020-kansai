@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="zou">
     <L-header></L-header>
     <p-hero></p-hero>
     <p-about></p-about>
@@ -29,5 +29,10 @@ export default {
 
 <style lang="scss" scoped>
 @import "~/assets/scss/common.scss";
-
+/* .zou {
+    background-image: url('~assets/images/hero/hero_sp_zou.png');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+} */
 </style>
