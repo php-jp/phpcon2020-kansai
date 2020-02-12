@@ -39,7 +39,8 @@ $font-family:"M PLUS Rounded 1c";
     width:100%;
     position:relative;
     background-image: url('~assets/images/hero/hero_sp_zou.png');
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat: repeat;
     background-size: cover;
 
     @include desktop {

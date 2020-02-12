@@ -143,8 +143,8 @@
 .p-googlemap {
   width:260px;
   height:50px;
-  font-size: 20px;
-  padding: 6px;
+  font-size: 18px;
+  padding-top: 7px;
   display: block;
   background: $clr_accentcolor;
   font-family: 'M PLUS Rounded 1c', sans-serif;
