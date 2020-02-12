@@ -32,11 +32,11 @@ export default {
 
 $font-family:"M PLUS Rounded 1c";
 
-
   .c-hero {
     font-family: $font-family;
     color:$clr-accentcolor;
     width:100%;
+    padding:66px 0 154px 0;
     position:relative;
     background-image: url('~assets/images/hero/hero_sp_zou.png');
     background-attachment: fixed;
@@ -66,13 +66,12 @@ $font-family:"M PLUS Rounded 1c";
         content:"";
         background-image:url('../../assets/images/hero/hero_zou_right.svg');
         background-repeat: no-repeat;
-        background-position: bottom 20px left 0px,bottom 20px right 5px;
         width: 775px;
         height: 645px;
         display: inline-block;
         position: absolute;
         right:0;
-        bottom:0;
+        bottom:47px;
         z-index: -100;
       }
     }
