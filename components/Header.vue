@@ -14,6 +14,8 @@
 @import "~/assets/scss/common.scss";
 
 .p-header {
+  // background-color: white; 
+  background-color: rgba( 204, 255, 204, 0 );
   margin-top: 14px;
   &__image {
     display: flex;

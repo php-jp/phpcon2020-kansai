@@ -47,8 +47,8 @@
   }
 
   &_logo {
-    width: 48px;
-    height: 38px;
+    width: 100px;
+    height: 58px;
   }
 }
 

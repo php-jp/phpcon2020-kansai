@@ -48,14 +48,13 @@
   // background　: $clr_basecolor;
 
   @include desktop {
-    margin-top: 100px;
+    margin-top: 0;
     background-size: 25%, 15%, 15%, 18%;
     background　: $clr_basecolor;
-    margin: 90px auto 0;
+    margin: 0px auto 0;
     height: 800px;
-    margin-top: 100px;
     background-image:url("~assets/images/about/about_zou_left.png"),url("~assets/images/about/about_zou_right.png");
-    background-position: bottom 30px left 190px,bottom 20px right 60px;
+    background-position: bottom 30px left 190px,bottom 20px right 10px;
     background-repeat: no-repeat;
   }
 
