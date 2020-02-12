@@ -39,7 +39,8 @@ $font-family:"M PLUS Rounded 1c";
     width:100%;
     position:relative;
     background-image: url('~assets/images/hero/hero_sp_zou.png');
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat: repeat;
     background-size: cover;
 
     @include desktop {
@@ -50,7 +51,6 @@ $font-family:"M PLUS Rounded 1c";
       @include desktop {
         content: "";
         background-image: url('../../assets/images/hero/hero_zou_left.svg');
-        background-attachment: fixed;
         background-repeat: no-repeat;
         width:792px;
         height: 635px;
@@ -65,10 +65,10 @@ $font-family:"M PLUS Rounded 1c";
       @include desktop {
         content:"";
         background-image:url('../../assets/images/hero/hero_zou_right.svg');
-        background-attachment: fixed;
         background-repeat: no-repeat;
-        width:792px;
-        height: 635px;
+        background-position: bottom 20px left 0px,bottom 20px right 5px;
+        width: 775px;
+        height: 645px;
         display: inline-block;
         position: absolute;
         right:0;
@@ -108,15 +108,16 @@ $font-family:"M PLUS Rounded 1c";
 
       &::after {
         @include desktop {
-          width:55px;
-          height:55px;
-          font-size: 28px;
+          width:40px;
+          height:38px;
+          font-size: 20px;
           font-weight: bold;
+          padding-right: 1px;
         }
         content:"土";
         width:36px;
         height:36px;
-        font-size: 19px;
+        font-size: 17px;
         font-weight: bold;
         line-height: 1.8;
         border-radius: 50%;
@@ -169,6 +170,7 @@ $font-family:"M PLUS Rounded 1c";
     }
 
     &__buttons {
+      display: flex;
       margin: 0 auto;
       margin-top: 30px;
       width: 280px;
@@ -178,9 +180,10 @@ $font-family:"M PLUS Rounded 1c";
     }
 
     &__button {
+      width: 140px;
       box-sizing: border-box;
       text-decoration: none;
-      font-size: 15px;
+      font-size: 13px;
       color:#fff;
       font-weight: bold;
       line-height: 1.4;

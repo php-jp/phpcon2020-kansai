@@ -23,7 +23,7 @@
               <p class="p-access_text">JR東西線北新地駅より徒歩5分</p>
             </div>
             <div class="p-access_button">
-              <button type="button" style="width:260px; height:50px; font-size: 20px;" onclick="location.href='https://g.page/breeze-plaza?share'">Google Mapを見る</button>
+              <a class="p-googlemap" onclick="location.href='https://g.page/breeze-plaza?share'">Google Mapを見る</a>
             </div>
           </div>
         </div>
@@ -46,14 +46,16 @@
   //         url("~assets/img/about_frame01.png"),
   //         url("~assets/img/about_frame02.png");
   // background　: $clr_basecolor;
-  background-size: 15%, 15%, 30%, 30%;
-  background-position: left top, right bottom, 45% 0%, 50% 100%;
 
   @include desktop {
-    margin-top: 100px;
-    background-size: 15%, 15%, 15%, 18%;
+    margin-top: 0;
+    background-size: 25%, 15%, 15%, 18%;
     background　: $clr_basecolor;
-    margin: 90px auto 0;
+    margin: 0px auto 0;
+    height: 800px;
+    background-image:url("~assets/images/about/about_zou_left.png"),url("~assets/images/about/about_zou_right.png");
+    background-position: bottom 30px left 190px,bottom 20px right 10px;
+    background-repeat: no-repeat;
   }
 
   &_title {
@@ -124,7 +126,7 @@
     color: $clr_accentcolor;
     margin-bottom: 25px;
     @include desktop {
-      margin-bottom: 46px;
+      margin-bottom: 20px;
     }
   }
 
@@ -137,7 +139,12 @@
   }
 }
 
-button{
+.p-googlemap {
+  width:260px;
+  height:50px;
+  font-size: 18px;
+  padding-top: 9px;
+  display: block;
   background: $clr_accentcolor;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   border-radius: 10px;
