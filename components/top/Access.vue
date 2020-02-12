@@ -23,7 +23,7 @@
               <p class="p-access_text">JR東西線北新地駅より徒歩5分</p>
             </div>
             <div class="p-access_button">
-              <button type="button" style="width:260px; height:50px; font-size: 20px;" onclick="location.href='https://g.page/breeze-plaza?share'">Google Mapを見る</button>
+              <a class="p-googlemap" onclick="location.href='https://g.page/breeze-plaza?share'">Google Mapを見る</a>
             </div>
           </div>
         </div>
@@ -54,6 +54,7 @@
     background-size: 15%, 15%, 15%, 18%;
     background　: $clr_basecolor;
     margin: 90px auto 0;
+    height: 800px;
   }
 
   &_title {
@@ -124,7 +125,7 @@
     color: $clr_accentcolor;
     margin-bottom: 25px;
     @include desktop {
-      margin-bottom: 46px;
+      margin-bottom: 20px;
     }
   }
 
@@ -137,7 +138,12 @@
   }
 }
 
-button{
+.p-googlemap {
+  width:260px;
+  height:50px;
+  font-size: 20px;
+  padding: 6px;
+  display: block;
   background: $clr_accentcolor;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   border-radius: 10px;
