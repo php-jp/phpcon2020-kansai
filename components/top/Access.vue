@@ -144,7 +144,7 @@
   width:260px;
   height:50px;
   font-size: 18px;
-  padding-top: 7px;
+  padding-top: 9px;
   display: block;
   background: $clr_accentcolor;
   font-family: 'M PLUS Rounded 1c', sans-serif;
