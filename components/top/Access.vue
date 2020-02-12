@@ -46,15 +46,17 @@
   //         url("~assets/img/about_frame01.png"),
   //         url("~assets/img/about_frame02.png");
   // background　: $clr_basecolor;
-  background-size: 15%, 15%, 30%, 30%;
-  background-position: left top, right bottom, 45% 0%, 50% 100%;
 
   @include desktop {
     margin-top: 100px;
-    background-size: 15%, 15%, 15%, 18%;
+    background-size: 25%, 15%, 15%, 18%;
     background　: $clr_basecolor;
     margin: 90px auto 0;
     height: 800px;
+    margin-top: 100px;
+    background-image:url("~assets/images/about/about_zou_left.png"),url("~assets/images/about/about_zou_right.png");
+    background-position: bottom 30px left 190px,bottom 20px right 60px;
+    background-repeat: no-repeat;
   }
 
   &_title {

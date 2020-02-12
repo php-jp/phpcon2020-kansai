@@ -108,15 +108,16 @@ $font-family:"M PLUS Rounded 1c";
 
       &::after {
         @include desktop {
-          width:55px;
-          height:55px;
-          font-size: 28px;
+          width:40px;
+          height:38px;
+          font-size: 20px;
           font-weight: bold;
+          padding-right: 1px;
         }
         content:"土";
         width:36px;
         height:36px;
-        font-size: 19px;
+        font-size: 17px;
         font-weight: bold;
         line-height: 1.8;
         border-radius: 50%;
