@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="p-about">
-      <div class="c-container">
+      <div class="l-container">
         <div class="p-about_title">about</div>
         <div class="p-about_intro">
           <h1 class="p-about_secHeading">php conference Kansai 2020</h1>
@@ -22,7 +22,7 @@
 
 <style lang="scss" scoped>
 @import "~/assets/scss/common.scss";
-  
+
 .p-about {
   margin: 0 auto ;
   position: relative;
@@ -75,8 +75,8 @@
     font-size: 2.8rem;
     margin-bottom: 45px;
     }
-    
-    
+
+
   }
 
   &_read {
@@ -90,7 +90,7 @@
     line-height: 2;
     @include desktop {
     display: inline-block;
-    color: #D17259;
+    color: $clr_accentcolor;
     width: 683px;
     height: 115px;
     text-align: center;

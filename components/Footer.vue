@@ -40,15 +40,19 @@
   left: 50%;
   transform: translateX(-50%) translateY(-70%);
   background-color: #433937;
-  border-radius: 10px 10px 10px 10px; 
+  border-radius: 10px 10px 10px 10px;
   @include desktop {
     width: 370px;
     height: 86px;
   }
 
   &_logo {
-    width: 100px;
-    height: 58px;
+    width: 46px;
+    height: 37px;
+    @include desktop {
+      width: 100px;
+      height: 58px;
+    }
   }
 }
 
