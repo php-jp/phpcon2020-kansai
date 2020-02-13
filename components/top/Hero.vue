@@ -1,6 +1,6 @@
 <template>
   <div class="c-hero">
-    <div class="c-hero__wrapper c-container">
+    <div class="c-hero__wrapper l-container">
       <h2 class="c-hero__image">
         <img class="c-hero__logo" src="@/assets/images/hero/hero_logo.svg" alt="logo-img">
       </h2>
@@ -37,11 +37,6 @@ $font-family:"M PLUS Rounded 1c";
     color:$clr-accentcolor;
     width:100%;
     padding:66px 0 154px 0;
-    position:relative;
-    background-image: url('~assets/images/hero/hero_sp_zou.png');
-    background-attachment: fixed;
-    background-repeat: repeat;
-    background-size: cover;
 
     @include desktop {
       background-image: none;
@@ -51,6 +46,7 @@ $font-family:"M PLUS Rounded 1c";
       @include desktop {
         content: "";
         background-image: url('../../assets/images/hero/hero_zou_left.svg');
+        background-size: 100%;
         background-repeat: no-repeat;
         width:792px;
         height: 635px;
@@ -65,6 +61,7 @@ $font-family:"M PLUS Rounded 1c";
       @include desktop {
         content:"";
         background-image:url('../../assets/images/hero/hero_zou_right.svg');
+        background-size: 100%;
         background-repeat: no-repeat;
         width: 775px;
         height: 645px;
@@ -125,10 +122,10 @@ $font-family:"M PLUS Rounded 1c";
         margin-left:20px;
         color:#fff;
         background-color:$clr-accentcolor;
-        
+
       }
     }
-    
+
 
     &__location {
       font-size: 15px;
@@ -139,7 +136,7 @@ $font-family:"M PLUS Rounded 1c";
         font-size: 24px;
         line-height: 1.3;
       }
-      
+
     }
 
     &__locationIcon {
@@ -204,8 +201,8 @@ $font-family:"M PLUS Rounded 1c";
         height: 60px;
       }
     }
-    
-    
+
+
   }
 </style>
 

@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="p-access">
-      <div class="c-container">
+      <div class="l-container">
         <div class="p-access_title">access</div>
         <div class="p-access_flex">
           <div class="p-access_map">
@@ -42,17 +42,12 @@
 .p-access {
   margin: 50px auto 0;
   position: relative;
-  // background-image:
-  //         url("~assets/img/about_frame01.png"),
-  //         url("~assets/img/about_frame02.png");
-  // background　: $clr_basecolor;
 
   @include desktop {
     margin-top: 0;
     background-size: 25%, 15%, 15%, 18%;
     background　: $clr_basecolor;
     margin: 0px auto 0;
-    height: 800px;
     background-image:url("~assets/images/about/about_zou_left.png"),url("~assets/images/about/about_zou_right.png");
     background-position: bottom 30px left 190px,bottom 20px right 10px;
     background-repeat: no-repeat;
@@ -83,7 +78,7 @@
   }
 
   &_text {
-    font-size: 13px;
+    font-size: 1.6rem;
   }
 
   &_place {
@@ -102,9 +97,9 @@
     height: 200px;
     margin-bottom: 16px;
     @include desktop {
-      padding-right: 86px;
-      width: 426px;
-      height: 300px;
+      padding-right: 50px;
+      width: 500px;
+      height: 360px;
       margin-bottom: unset;
     }
   }
@@ -134,7 +129,7 @@
     margin-bottom: 109px;
     text-align: center;
     @include desktop {
-      margin-bottom: unset;
+      margin-bottom: 280px;
     }
   }
 }
