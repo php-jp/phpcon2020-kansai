@@ -33,13 +33,20 @@ export default {
 @import "~/assets/scss/common.scss";
 
 .c-background {
+
+  &:before {
+    content:"";
+    width: 100vw;
+    height: 100vh;
     background-image: url('~assets/images/hero/hero_sp_zou.png');
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 100vh;
-
+    display: block;
+    position: fixed;
+  }
+    
     @include desktop(){
+    &:after {
       background:none;
     }
 }
