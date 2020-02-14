@@ -1,30 +1,31 @@
 <template>
-  <div class="p-footer">
-    <div class="square">
+  <section class="p-footer">
+    <div class="p-footer__square">
       <img
-        class="square_logo"
+        class="p-footer__squarLogo"
         src="~assets/images/footer/footer_icon_logo.svg"
       />
     </div>
-    <div class="p-footer_intro">
-      <div class="p-footer_secHeading">
+    <div class="p-footer__intro">
+      <div class="p-footer__secHeading">
         お問い合わせは<a
           href="https://www.facebook.com/pcon.kansai/"
           target="branck"
+          class="p-footer__link"
           >Facebookグループ</a
         >のメッセージからお願いします。
       </div>
-      <div class="p-footer_read">
+      <div class="p-footer__read">
         follow me‼︎
       </div>
-      <div class="p-footer_follow">
+      <div class="p-footer__follow">
         <a
           class="p-footer__link"
           href="https://www.facebook.com/pcon.kansai/"
           target="branck"
         >
           <img
-            class="p-footer_followIcon p-footer__iconFacebook"
+            class="p-footer__followIcon p-footer__iconFacebook"
             src="~assets/images/footer/footer_icon_facebook.svg"
             alt="facebook"
           />
@@ -35,55 +36,25 @@
           target="branck"
         >
           <img
-            class="p-footer_followIcon"
+            class="p-footer__followIcon"
             src="~assets/images/footer/footer_icon_twitte.svg"
             alt="twitter"
           />
         </a>
       </div>
-      <p class="p-footer_copyright">
+      <small class="p-footer__copyright">
         Copyright @ Kansai PHP Users Group
-      </p>
+      </small>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
-export default {
-
-};
+export default {};
 </script>
 
 <style lang="scss" scoped>
 @import "~assets/scss/common.scss";
-
-.square {
-  // padding: 0px 100px 253px;
-  padding-top: 14px;
-  display: inline-block;
-  position: absolute;
-  background-repeat: no-repeat;
-  width: 120px;
-  height: 55px;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%) translateY(-70%);
-  background-color: #433937;
-  border-radius: 10px 10px 10px 10px;
-  @include desktop {
-    width: 370px;
-    height: 86px;
-  }
-
-  &_logo {
-    width: 46px;
-    height: 37px;
-    @include desktop {
-      width: 100px;
-      height: 58px;
-    }
-  }
-}
 
 .p-footer {
   background-color: #433937;
@@ -92,34 +63,62 @@ export default {
   font-weight: bold;
   text-align: center;
   position: relative;
-  padding: 56px 28px 30px 29px;
+  padding: 78px 28px 0 29px;
 
-  &_secHeading {
+  &__square {
+    // padding: 0px 100px 253px;
+    padding-top: 14px;
+    display: inline-block;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 55px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-70%);
+    background-color: #433937;
+    border-radius: 10px 10px 10px 10px;
+    @include desktop {
+      width: 370px;
+      height: 86px;
+    }
+
+    &Logo {
+      width: 46px;
+      height: 37px;
+      @include desktop {
+        width: 100px;
+        height: 58px;
+      }
+    }
+  }
+
+  &__secHeading {
     font-size: 1.4rem;
     margin-bottom: 22px;
 
     @include desktop {
       font-size: 2rem;
-      margin-bottom: 51px;
-    }
-
-    a {
-      text-decoration: underline;
+      margin-bottom: 31px;
     }
   }
 
-  &_read {
+  &__link {
+    text-decoration: underline;
+  }
+
+  &__read {
     font-size: 1.4rem;
     margin-bottom: 15px;
     letter-spacing: 0.98px;
 
     @include desktop {
       font-size: 2rem;
-      margin-bottom: 25px;
+      margin-bottom: 13px;
     }
   }
 
-  &_follow {
+  &__follow {
     display: flex;
     justify-content: center;
 
@@ -142,13 +141,16 @@ export default {
     }
   }
 
-  &_copyright {
+  &__copyright {
     font-size: 1.2rem;
-    margin-top: 42px;
+    margin-top: 49px;
+    font-family: "Fredoka One", cursive;
+    font-weight: normal;
+    display: inline-block;
 
     @include desktop {
       font-size: 1.5rem;
-      margin-bottom: 34px;
+      margin-bottom: 30px;
     }
   }
 }
