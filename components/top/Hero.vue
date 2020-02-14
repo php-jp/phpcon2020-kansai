@@ -77,7 +77,7 @@ $font-family:"M PLUS Rounded 1c";
         right:39px;
         bottom: 0;
         z-index: -100;
-        
+
       }
     }
 
@@ -195,7 +195,7 @@ $font-family:"M PLUS Rounded 1c";
       font-weight: bold;
       line-height: 1.4;
       height: 40px;
-      padding: 10px 9px 9px 10px;
+      padding: 10px 0px 9px 0px;
       background-color: $clr-accentcolor;
       border-radius: 10px 9px 9px 10px;
       display: inline-block;
