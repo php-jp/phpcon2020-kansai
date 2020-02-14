@@ -1,6 +1,7 @@
 <template>
   <main>
     <div class="c-background">
+      <Share />
       <p-hero></p-hero>
       <p-about></p-about>
       <p-access></p-access>
@@ -13,20 +14,22 @@
 import PHero from '~/components/top/Hero.vue'
 import PAbout from '~/components/top/About.vue'
 import PAccess from '~/components/top/Access.vue'
+import Share from "~/components/top/-Share.vue";
 import LFooter from "~/components/Footer.vue";
-
 
 export default {
   components: {
     PHero,
     PAbout,
     PAccess,
-    LFooter
+    LFooter,
+    Share
   }
 }
 </script>
 
 <style lang="scss" scoped>
+
 @import "~/assets/scss/common.scss";
 
 .c-background {
@@ -34,9 +37,12 @@ export default {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
+
     @include desktop(){
-      background-image: url("");
+      background:none;
     }
 }
+
+
 
 </style>
