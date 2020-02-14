@@ -46,7 +46,7 @@ export default {
   }
     
     @include desktop(){
-    &:after {
+    &:before {
       background:none;
     }
 }
