@@ -23,7 +23,7 @@
               <p class="p-access_text">JR東西線北新地駅より徒歩5分</p>
             </div>
             <div class="p-access_button">
-              <a class="p-googlemap" onclick="location.href='https://g.page/breeze-plaza?share'">Google Mapを見る</a>
+              <a class="p-googlemap" href="https://www.google.com/maps/place/%E3%80%92530-0001+%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E5%8C%97%E5%8C%BA%E6%A2%85%E7%94%B0%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%94%E2%88%92%EF%BC%99+%E3%83%96%E3%83%AA%E3%83%BC%E3%82%BC%E3%82%BF%E3%83%AF%E3%83%BC7-8%E9%9A%8E+%E8%B2%B8%E3%81%97%E4%BC%9A%E8%AD%B0%E5%AE%A4+%E6%A2%85%E7%94%B0+%E3%83%96%E3%83%AA%E3%83%BC%E3%82%BC%E3%83%97%E3%83%A9%E3%82%B6+%E5%A4%A7%E9%98%AA/@34.6987149,135.4939563,13z/data=!4m2!3m1!1s0x6000e68cd2b0df55:0x349166def7ac6e94" target="branck">Google Mapを見る</a>
             </div>
           </div>
         </div>
@@ -78,8 +78,11 @@
   }
 
   &_text {
-    font-size: 1.6rem;
-  }
+    font-size: 1.3rem;
+    @include desktop {
+      font-size: 1.6rem;
+    }
+      }
 
   &_place {
     text-align: left;
@@ -145,6 +148,7 @@
   border-radius: 10px;
   font-weight: bold;
   color: #ffffff;
+  text-decoration: none;
 }
 
 iframe {

@@ -62,9 +62,7 @@
 
   &_secHeading {
     display: inline-block;
-    //width: 248px;
-    //height: 22px;
-    text-align: left;
+    text-align: center;
     letter-spacing: 1.12px;
     font-size: 1.6rem;
     margin-bottom: 20px;
