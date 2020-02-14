@@ -4,7 +4,6 @@
       <h2 class="c-hero__image">
         <img class="c-hero__logo" src="@/assets/images/hero/hero_logo.svg" alt="logo-img">
       </h2>
-      <a href="https://twitter.com/intent/tweet?text=関西最大のPHPイベントは5月09日(土)にブリーゼプラザホールカンファレンスにて開催! PHPカンファレンス関西2020 https://phpcon2020.netlify.com/&amp;hashtags=phpkansai" target="_blank" data-v-1405286f="">tubuyaku</a>
       <p class="c-hero__leadTxt">
         PHPカンファレンスが今年も開催！
       </p>
