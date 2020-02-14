@@ -5,14 +5,18 @@
     </div>
     <div class="p-footer_intro">
       <div class="p-footer_secHeading">
-        お問い合わせは<a>Facebookグループ</a>のメッセージからお願いします。
+        お問い合わせは<a href="https://www.facebook.com/pcon.kansai/" target="branck">Facebookグループ</a>のメッセージからお願いします。
       </div>
       <div class="p-footer_read">
         follow me‼︎
       </div>
       <div class="p-footer_follow">
+        <a href="https://www.facebook.com/pcon.kansai/" target="branck">
         <img class="p-footer_followIcon" src="~assets/images/footer/footer_icon_facebook.svg" alt="facebook">
+        </a>
+        <a href="https://twitter.com/phpcon_kansai" target="branck">
         <img class="p-footer_followIcon" src="~assets/images/footer/footer_icon_twitte.svg" alt="twitter">
+        </a>
       </div>
       <p class="p-footer_copyright">
         Copyright @ Kansai PHP Users Group
