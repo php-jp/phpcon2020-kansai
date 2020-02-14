@@ -130,7 +130,7 @@ $font-family:"M PLUS Rounded 1c";
         border-radius: 50%;
         position: absolute;
         top:3px;
-        margin-left:15px;
+        margin-left:10px;
         color:#fff;
         background-color:$clr-accentcolor;
 
