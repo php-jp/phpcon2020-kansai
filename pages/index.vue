@@ -37,6 +37,7 @@ export default {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 100vh;
 
     @include desktop(){
       background:none;
