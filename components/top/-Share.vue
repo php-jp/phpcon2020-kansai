@@ -33,7 +33,8 @@ export default {};
 <style lang="scss" scoped>
 @import "~/assets/scss/common.scss";
 .c-share {
-  position: absolute;
+  position: fixed;
+  z-index: 999;
   margin-top: 110px;
   width: 60px;
   max-width: 60px;
