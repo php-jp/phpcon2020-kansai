@@ -84,10 +84,8 @@ export default {
     text-align: center;
     font-size: 1.2rem;
     line-height: 2;
-    color: #D17259;
     @include desktop {
     display: inline-block;
-    color: #D17259;
     width: 683px;
     height: 115px;
     text-align: center;

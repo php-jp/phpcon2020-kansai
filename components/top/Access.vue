@@ -62,8 +62,6 @@ export default {};
 
   @include desktop {
     margin-top: 0;
-    background-size: 25%, 15%, 15%, 18%;
-    background　: $clr_basecolor;
     margin: 0px auto 0;
 
     &:before {
