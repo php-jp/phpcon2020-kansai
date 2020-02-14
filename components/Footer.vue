@@ -1,21 +1,44 @@
 <template>
-<div class="p-footer">
+  <div class="p-footer">
     <div class="square">
-      <img class="square_logo" src="~assets/images/footer/footer_icon_logo.svg">
+      <img
+        class="square_logo"
+        src="~assets/images/footer/footer_icon_logo.svg"
+      />
     </div>
     <div class="p-footer_intro">
       <div class="p-footer_secHeading">
-        お問い合わせは<a href="https://www.facebook.com/pcon.kansai/" target="branck">Facebookグループ</a>のメッセージからお願いします。
+        お問い合わせは<a
+          href="https://www.facebook.com/pcon.kansai/"
+          target="branck"
+          >Facebookグループ</a
+        >のメッセージからお願いします。
       </div>
       <div class="p-footer_read">
         follow me‼︎
       </div>
       <div class="p-footer_follow">
-        <a href="https://www.facebook.com/pcon.kansai/" target="branck">
-        <img class="p-footer_followIcon" src="~assets/images/footer/footer_icon_facebook.svg" alt="facebook">
+        <a
+          class="p-footer__link"
+          href="https://www.facebook.com/pcon.kansai/"
+          target="branck"
+        >
+          <img
+            class="p-footer_followIcon p-footer__iconFacebook"
+            src="~assets/images/footer/footer_icon_facebook.svg"
+            alt="facebook"
+          />
         </a>
-        <a href="https://twitter.com/phpcon_kansai" target="branck">
-        <img class="p-footer_followIcon" src="~assets/images/footer/footer_icon_twitte.svg" alt="twitter">
+        <a
+          class="p-footer__link"
+          href="https://twitter.com/phpcon_kansai"
+          target="branck"
+        >
+          <img
+            class="p-footer_followIcon"
+            src="~assets/images/footer/footer_icon_twitte.svg"
+            alt="twitter"
+          />
         </a>
       </div>
       <p class="p-footer_copyright">
@@ -26,7 +49,9 @@
 </template>
 
 <script>
+export default {
 
+};
 </script>
 
 <style lang="scss" scoped>
@@ -61,61 +86,70 @@
 }
 
 .p-footer {
-    background-color: #433937;
-    color: $clr_accentcolor;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    position: relative;
-    padding: 56px 28px 30px 29px;
+  background-color: #433937;
+  color: $clr_accentcolor;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  padding: 56px 28px 30px 29px;
 
-    &_secHeading {
-      font-size: 1.4rem;
-      margin-bottom: 22px;
+  &_secHeading {
+    font-size: 1.4rem;
+    margin-bottom: 22px;
 
-      @include desktop {
-        font-size: 2rem;
-        margin-bottom: 51px;
-      }
-
-      a {
-        text-decoration: underline;
-      }
+    @include desktop {
+      font-size: 2rem;
+      margin-bottom: 51px;
     }
 
-    &_read {
-        font-size: 1.4rem;
-        margin-bottom: 15px;
-        letter-spacing: 0.98px;
-
-        @include desktop {
-        font-size: 2rem;
-         margin-bottom: 25px;
-        }
+    a {
+      text-decoration: underline;
     }
+  }
 
-    &_follow {
-      display: flex;
-      justify-content: center;
-      &Icon {
-        display: inline-block;
+  &_read {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    letter-spacing: 0.98px;
+
+    @include desktop {
+      font-size: 2rem;
+      margin-bottom: 25px;
+    }
+  }
+
+  &_follow {
+    display: flex;
+    justify-content: center;
+
+    &Icon {
+      display: inline-block;
+      @include mobile {
         width: 30px;
-        height: 30px;
-        &:first-child {
-          margin-right: 30px;
-        }
       }
     }
 
-    &_copyright {
-        font-size: 1.2rem;
-        margin-top: 42px;
-
-        @include desktop {
-          font-size: 1.5rem;
-          margin-bottom: 34px;
-        }
+    &__link {
+      text-align: center;
     }
-}
+  }
 
+  &__iconFacebook {
+    margin-right: 30px;
+    @include mobile {
+      margin-right: 20px;
+    }
+  }
+
+  &_copyright {
+    font-size: 1.2rem;
+    margin-top: 42px;
+
+    @include desktop {
+      font-size: 1.5rem;
+      margin-bottom: 34px;
+    }
+  }
+}
 </style>
