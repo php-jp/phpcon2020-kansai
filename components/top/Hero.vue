@@ -110,6 +110,7 @@ $font-family:"M PLUS Rounded 1c";
       position: relative;
       margin:30px 0 16px 0;
       display: inline-block;
+      padding-right: 40px;
 
       &::after {
         @include desktop {
