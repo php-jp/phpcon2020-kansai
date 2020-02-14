@@ -1,5 +1,5 @@
 <template>
-  <div class="c-hero">
+  <section class="c-hero">
     <div class="c-hero__wrapper l-container">
       <h2 class="c-hero__image">
         <img class="c-hero__logo" src="@/assets/images/hero/hero_logo.svg" alt="logo-img">
@@ -17,7 +17,7 @@
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_4ulNeFqcBYOItbQR0EoCy0NR6EUYV_GhuttWhxLwgPuNWA/viewform" class="c-hero__button" target="_blank" >登壇者募集中</a>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -56,7 +56,7 @@ $font-family:"M PLUS Rounded 1c";
         min-height: 380px;
         display: inline-block;
         position: absolute;
-        top:39px;
+        top:20px;
         z-index: -100;
         left:39px;
       }
@@ -128,8 +128,8 @@ $font-family:"M PLUS Rounded 1c";
         line-height: 2;
         border-radius: 50%;
         position: absolute;
-        top:5px;
-        margin-left:20px;
+        top:3px;
+        margin-left:15px;
         color:#fff;
         background-color:$clr-accentcolor;
 
