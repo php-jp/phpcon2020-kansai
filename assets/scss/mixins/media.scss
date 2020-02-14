@@ -1,5 +1,18 @@
+/* 
+画面サイズが768px以上の時に適応。
+*/
 @mixin desktop() {
   @media (min-width: 768px) {
+    @content;
+  }
+}
+
+
+/* 
+画面サイズが768px以下の時に適応。
+*/
+@mixin mobile() {
+  @media(max-width:768px) {
     @content;
   }
 }
