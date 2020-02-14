@@ -48,7 +48,11 @@
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+
+};
+</script>
 
 <style lang="scss" scoped>
 @import "~assets/scss/common.scss";
@@ -121,6 +125,9 @@
 
     &Icon {
       display: inline-block;
+      @include mobile {
+        width: 30px;
+      }
     }
 
     &__link {
@@ -130,6 +137,9 @@
 
   &__iconFacebook {
     margin-right: 30px;
+    @include mobile {
+      margin-right: 20px;
+    }
   }
 
   &_copyright {
