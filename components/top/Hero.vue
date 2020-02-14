@@ -37,6 +37,7 @@ $font-family:"M PLUS Rounded 1c";
     color:$clr-accentcolor;
     width:100%;
     padding:66px 0 90px 0;
+    position: relative;
 
     @include desktop {
       background-image: none;
@@ -49,11 +50,13 @@ $font-family:"M PLUS Rounded 1c";
         background-image: url('../../assets/images/hero/hero_zou_left.svg');
         background-size: 100%;
         background-repeat: no-repeat;
-        width:792px;
-        height: 635px;
+        width:40vw;
+        min-width: 450px;
+        height: 36vw;
+        min-height: 380px;
         display: inline-block;
         position: absolute;
-        top:0;
+        top:39px;
         z-index: -100;
         left:39px;
       }
@@ -65,13 +68,16 @@ $font-family:"M PLUS Rounded 1c";
         background-image:url('../../assets/images/hero/hero_zou_right.svg');
         background-size: 100%;
         background-repeat: no-repeat;
-        width: 775px;
-        height: 645px;
+        width: 40vw;
+        min-width: 450px;
+        height: 36vw;
+        min-height: 380px;
         display: inline-block;
         position: absolute;
         right:39px;
-        bottom:47px;
+        bottom: 0;
         z-index: -100;
+        
       }
     }
 
