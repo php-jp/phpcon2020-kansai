@@ -144,6 +144,7 @@ export default {};
   &__copyright {
     font-size: 1.2rem;
     margin-top: 49px;
+    margin-bottom: 25px;
     font-family: "Fredoka One", cursive;
     font-weight: normal;
     display: inline-block;
