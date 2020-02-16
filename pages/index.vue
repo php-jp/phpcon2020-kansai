@@ -32,7 +32,9 @@ export default {
         { property: 'og:image', content: 'https://2020.kphpug.jp/images/ogp.jpg' },
         { property: 'og:url', content: 'https://2020.kphpug.jp/' },
         { property: 'og:description', content: '関西PHPerの夏はこれがなくちゃ始まらない！今年で9回目となる関西最大級のPHPイベント、今年も開催です。全国PHPerが大阪に集結「PHPカンファレンス関西」で心に残る夏の思い出を！' },
+        { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'description', content: '関西PHPerの夏はこれがなくちゃ始まらない！今年で9回目となる関西最大級のPHPイベント、今年も開催です。全国PHPerが大阪に集結「PHPカンファレンス関西」で心に残る夏の思い出を！' }
+
       ]
     }
 }
