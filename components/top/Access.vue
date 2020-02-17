@@ -198,6 +198,11 @@ export default {};
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
+    margin: auto;
+    @include desktop {
+      margin-bottom: 280px;
+      margin: 0px;
+    }
   }
 }
 </style>

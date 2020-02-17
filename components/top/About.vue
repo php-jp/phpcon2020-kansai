@@ -6,7 +6,7 @@
           <h2 class="p-about__secHeading">php conference Kansai 2020</h2>
           <p class="p-about__read">
             関西PHPerの夏はこれがなくちゃ始まらない！<br>
-            今年で８回目となる関西最大級のPHPイベント、今年も開催です。<br>
+            今年で９回目となる関西最大級のPHPイベント、今年も開催です。<br>
             <br>全国PHPerが大阪に集結「PHPカンファレンス関西」で心に残る夏の思い出を！
           </p>
         </div>
@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  
+
 }
 </script>
 
