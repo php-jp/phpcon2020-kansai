@@ -5,7 +5,6 @@
         <div class="p-about__intro">
           <h2 class="p-about__secHeading">php conference Kansai 2020</h2>
           <p class="p-about__read">
-            関西最大のPHPイベント開催決定！<br>
             集え、PHPer！！<br>
             PHPerのGWはこの日が本番<br>
             あのPHPの祭典がついに帰ってきた！<br><br>

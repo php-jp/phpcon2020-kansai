@@ -5,7 +5,7 @@
         <img class="c-hero__logo" src="@/assets/images/hero/hero_logo.svg" alt="logo-img">
       </h2>
       <p class="c-hero__leadTxt">
-        PHPカンファレンスが今年も開催！
+        関西最大のPHPイベント開催決定！
       </p>
       <date class="c-hero__date">
         5/9
