@@ -9,10 +9,10 @@
     <div class="p-footer__intro">
       <div class="p-footer__secHeading">
         お問い合わせは<a
-          href="https://www.facebook.com/pcon.kansai/"
+          href="mailto:phpcon.kansai@gmail.com"
           target="branck"
           class="p-footer__link"
-          >Facebookグループ</a
+          >phpcon.kansai@gmail.com</a
         >のメッセージからお願いします。
       </div>
       <div class="p-footer__read">
