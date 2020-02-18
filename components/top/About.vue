@@ -5,9 +5,13 @@
         <div class="p-about__intro">
           <h2 class="p-about__secHeading">php conference Kansai 2020</h2>
           <p class="p-about__read">
-            関西PHPerの夏はこれがなくちゃ始まらない！<br>
-            今年で９回目となる関西最大級のPHPイベント、今年も開催です。<br>
-            <br>全国PHPerが大阪に集結「PHPカンファレンス関西」で心に残る夏の思い出を！
+            関西最大のPHPイベント開催決定！<br>
+            集え、PHPer！！<br>
+            PHPerのGWはこの日が本番<br>
+            あのPHPの祭典がついに帰ってきた！<br><br>
+            今回のテーマは「Share!!」<br><br>
+            当日はPHPに関するトークセッションのほか、懇親会やその他イベントを実施予定<br>
+            「PHPカンファレンス関西」で知識•技術•感動をみんなで分かち合おう！
           </p>
         </div>
       </div>
