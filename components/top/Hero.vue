@@ -11,6 +11,12 @@
         5/9
       </date>
       <p class="c-hero__location"><img src="@/assets/images/hero/place-24px.svg" class="c-hero__locationIcon" alt="location-pin" /> ブリーゼプラザ ホール&カンファレンス</p>
+      <div class="c-hero__news">
+        <router-link class="c-hero__text" to="/news">
+          新型コロナウィルス感染症 (2019-nCoV, COVID-19) <br>
+        に関する対応方針について（2020年2月28日時点）
+        </router-link>
+      </div>
       <p class="c-hero__announce">スポンサー、登壇者募集開始！！</p>
       <div class="c-hero__buttons">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfyrd-NmeeGTQke-2-KyBqXU2D10Hd7CcJheewBAd1Os6YIOA/viewform" class="c-hero__button" target="_blank" >スポンサー募集中</a>
@@ -150,6 +156,28 @@ $font-family:"M PLUS Rounded 1c";
 
     }
 
+    &__news {
+      padding: 10px 10px 10px 10px;
+      display: inline-block;
+      border: solid 2px $clr_accentcolor;
+      text-align: center;
+      margin-top: 15px;
+      @include desktop {
+        padding: 10px 35px 10px 35px;
+        margin-top: 25px;
+      }
+    }
+
+    &__text {
+      font-size: 1.2rem;
+      font-weight: bold;
+      line-height: 1.2;
+      @include desktop {
+        font-size: 1.6rem;
+        line-height: 1;
+      }
+    }
+
     &__locationIcon {
       text-align: center;
       width: 17px;
@@ -168,12 +196,12 @@ $font-family:"M PLUS Rounded 1c";
       min-width:280px;
       display: inline-block;
       margin: 0 auto;
-      margin-top:30px;
+      margin-top:20px;
       padding: 5px 0px 5px 0px;
       @include desktop {
         width:460px;
         font-size: 23px;
-        margin-top:46px;
+        margin-top: 30px;
       }
     }
 
