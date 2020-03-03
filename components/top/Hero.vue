@@ -157,13 +157,10 @@ $font-family:"M PLUS Rounded 1c";
     }
 
     &__news {
-      padding: 10px 10px 10px 10px;
       display: inline-block;
-      border: solid 2px $clr_accentcolor;
       text-align: center;
       margin-top: 15px;
       @include desktop {
-        padding: 10px 35px 10px 35px;
         margin-top: 25px;
       }
     }
