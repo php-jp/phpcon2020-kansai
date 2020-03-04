@@ -157,7 +157,6 @@ $font-family:"M PLUS Rounded 1c";
     }
 
     &__news {
-      display: inline-block;
       text-align: center;
       margin-top: 15px;
       @include desktop {
