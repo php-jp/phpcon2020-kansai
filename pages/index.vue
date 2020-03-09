@@ -3,7 +3,9 @@
     <div class="c-background">
       <Share />
       <p-hero></p-hero>
+      <p-ticket></p-ticket>
       <p-about></p-about>
+      <p-session></p-session>
       <p-access></p-access>
       <L-footer></L-footer>
     </div>
@@ -12,7 +14,9 @@
 
 <script>
 import PHero from '~/components/top/Hero.vue'
+import PTicket from '~/components/top/Ticket.vue'
 import PAbout from '~/components/top/About.vue'
+import PSession from '~/components/top/Session.vue'
 import PAccess from '~/components/top/Access.vue'
 import Share from "~/components/top/-Share.vue";
 import LFooter from "~/components/Footer.vue";
@@ -20,7 +24,9 @@ import LFooter from "~/components/Footer.vue";
 export default {
   components: {
     PHero,
+    PTicket,
     PAbout,
+    PSession,
     PAccess,
     LFooter,
     Share
