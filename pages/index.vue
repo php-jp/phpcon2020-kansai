@@ -5,6 +5,7 @@
       <p-hero></p-hero>
       <p-about></p-about>
       <p-access></p-access>
+      <p-sponsor></p-sponsor>
       <L-footer></L-footer>
     </div>
   </main>
@@ -14,6 +15,7 @@
 import PHero from '~/components/top/Hero.vue'
 import PAbout from '~/components/top/About.vue'
 import PAccess from '~/components/top/Access.vue'
+import PSponsor from '~/components/top/Sponsor.vue'
 import Share from "~/components/top/-Share.vue";
 import LFooter from "~/components/Footer.vue";
 
@@ -22,6 +24,7 @@ export default {
     PHero,
     PAbout,
     PAccess,
+    PSponsor,
     LFooter,
     Share
   },
