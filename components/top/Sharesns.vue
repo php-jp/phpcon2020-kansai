@@ -11,17 +11,17 @@
                 <a
                     class="p-sheresns__link"
                     href="https://twitter.com/intent/tweet?text=%E9%96%A2%E8%A5%BF%E6%9C%80%E5%A4%A7%E3%81%AEPHP%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%81%AF5%E6%9C%8809%E6%97%A5(%E5%9C%9F)%E3%81%AB%E3%83%96%E3%83%AA%E3%83%BC%E3%82%BC%E3%83%97%E3%83%A9%E3%82%B6%E3%83%9B%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9%E3%81%AB%E3%81%A6%E9%96%8B%E5%82%AC!%20PHP%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9%E9%96%A2%E8%A5%BF2020%20https://2020.kphpug.jp/&hashtags=phpkansai"
-                    onclick="javascript:window.open(this.href, '_blank', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=600');return false;"
+                    target="_blanck"
                 >
-                    <img src="~/assets/images/sharesns/twitter-brands.svg" alt="">
+                    <img src="~/assets/images/sharesns/twitter-brands.svg" alt="twitterアイコン">
                     Twiiterでつぶやく
                 </a>
                 <a
                     class="p-sheresns__link"
                     href="https://www.facebook.com/sharer.php?u=https://2020.kphpug.jp&t=%E9%96%A2%E8%A5%BF%E6%9C%80%E5%A4%A7%E3%81%AEPHP%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%81%AF5%E6%9C%8809%E6%97%A5(%E5%9C%9F)%E3%81%AB%E3%83%96%E3%83%AA%E3%83%BC%E3%82%BC%E3%83%97%E3%83%A9%E3%82%B6%E3%83%9B%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9%E3%81%AB%E3%81%A6%E9%96%8B%E5%82%AC!%20PHP%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9%E9%96%A2%E8%A5%BF2020&hashtags=phpkansai"
-                    onclick="javascript:window.open(this.href, '_blank', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=800,width=600');return false;"
+                    target="_blanck"
                 >
-                    <img src="~/assets/images/sharesns/facebook-f-brands.svg" alt="">
+                    <img src="~/assets/images/sharesns/facebook-f-brands.svg" alt="facebookアイコン">
                     Facebookでシェア
                 </a>
             </div>
