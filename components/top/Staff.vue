@@ -68,9 +68,25 @@ export default {
 
 .p-staff {
     position: relative;
+    @include desktop {
+        padding-bottom: 75px;
+    }
     &__title {
         @include c-section-title;
+        display: none;
         color: $clr_accentcolor;
+        @include desktop {
+            display: block;
+        }
+    }
+    &__titleSub {
+        @include c-section-title;
+        color: $clr_accentcolor;
+        @include desktop {
+            color: #FFFFFF;
+            -webkit-text-stroke: 2px $clr_accentcolor;
+            font-size: 35px;
+        }
     }
     &__staffWrap {
         display: flex;
@@ -102,7 +118,7 @@ export default {
         color: $clr_accentcolor;
         font-weight: bold;
         text-align: center;
-        @mixin desktop() {
+        @include desktop {
             display: block;
         }
     }
@@ -111,7 +127,7 @@ export default {
         font-size: 16px;
         color: $clr_accentcolor;
         text-align: center;
-        @mixin desktop() {
+        @include desktop {
             display: block;
         }
     }
