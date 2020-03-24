@@ -19,6 +19,9 @@
                 <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
                 <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
                 <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
+                <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
+                <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
+                <div class="p-sponsor__empty"></div>
             </div>
 
             <div class="p-sponsor__titleSub">
@@ -29,6 +32,8 @@
                 <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
                 <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
                 <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
+                <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
+                <div class="p-sponsor__empty"></div>
             </div>
 
             <div class="p-sponsor__titleSub">
@@ -57,6 +62,9 @@ export default {
     color: $clr_accentcolor;
     background-color: $clr_basecolor;
     padding: 40px 0 80px;
+    @include desktop {
+        padding-bottom: 212px;
+    }
     &__title {
         @include c-section-title;
         color: $clr_accentcolor;
@@ -74,10 +82,18 @@ export default {
     }
     &__platinum {
         text-align: center;
+        @include desktop {
+            display: flex;
+            justify-content: space-between;
+        }
     }
     &__platinum img {
-        widows: 280px;
+        width: 280px;
         margin-bottom: 20px;
+        @include desktop {
+            width: 435px;
+            margin-bottom: 70px;
+        }
     }
     &__gold {
         display: flex;
@@ -87,6 +103,10 @@ export default {
     &__gold img {
         width: 130px;
         margin-bottom: 20px;
+        @include desktop {
+            width: 280px;
+            margin-bottom: 50px;
+        }
     }
     &__silver {
         display: flex;
@@ -96,12 +116,22 @@ export default {
     &__silver img {
         width: 84px;
         margin-bottom: 15px;
+        @include desktop {
+            width: 194px;
+            margin-bottom: 55px;
+        }
+    }
+    &__empty {
+        width: 30%;
     }
     &__food {
         text-align: center;
     }
     &__food img {
         width: 130px;
+        @include desktop {
+            width: 280px;
+        }
     }
 }
 </style>
