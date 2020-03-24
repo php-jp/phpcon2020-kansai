@@ -8,18 +8,20 @@
                 イベントに関する要望等もお待ちしております。
             </p>
             <div class="p-sheresns__buttons">
+                <!-- テキストとURLは仮のものを入れてます -->
                 <a
                     class="p-sheresns__link"
-                    href=""
-                    target="branck"
+                    href="//twitter.com/share?text=テキストを入れる&url=シェアするURLを入れる"
+                    onclick="javascript:window.open(this.href, '_blank', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=600');return false;"
                 >
                     <img src="~/assets/images/sharesns/twitter-brands.svg" alt="">
                     Twiiterでつぶやく
                 </a>
+                <!-- テキストとURLは仮のものを入れてます -->
                 <a
                     class="p-sheresns__link"
-                    href=""
-                    target="branck"
+                    href="//www.facebook.com/sharer.php?src=bm&u=シェアするURLを入れる/&t=テキストを入れる"
+                    onclick="javascript:window.open(this.href, '_blank', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=800,width=600');return false;"
                 >
                     <img src="~/assets/images/sharesns/facebook-f-brands.svg" alt="">
                     Facebookでシェア
