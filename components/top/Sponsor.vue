@@ -38,7 +38,7 @@
                 food＆drink
             </div>
             <div class="p-sponsor__food">
-                <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
+                <img src="~/assets/images/sponsor/gold@2x.png" alt="コールドスポンサーの会社">
             </div>
 
         </div>
