@@ -13,44 +13,36 @@
             <div class="p-staff__titleSub">staff</div>
             <div class="p-staff__staffWrap">
                 <div class="p-staff__staff">
-                    <img class="p-staff__staffImage" src="~/assets/images/staff/0.png" alt="スタッフ写真">
+                    <img class="p-staff__staffImage" src="~/assets/images/staff/profileImg@2x.png" alt="スタッフ写真">
                     <p class="p-staff__staffName">山田太郎</p>
                 </div>
                 <div class="p-staff__staff">
-                    <img class="p-staff__staffImage" src="~/assets/images/staff/0.png" alt="スタッフ写真">
+                    <img class="p-staff__staffImage" src="~/assets/images/staff/profileImg@2x.png" alt="スタッフ写真">
                     <p class="p-staff__staffName">山田太郎</p>
                 </div>
                 <div class="p-staff__staff">
-                    <img class="p-staff__staffImage" src="~/assets/images/staff/0.png" alt="スタッフ写真">
+                    <img class="p-staff__staffImage" src="~/assets/images/staff/profileImg@2x.png" alt="スタッフ写真">
                     <p class="p-staff__staffName">山田太郎</p>
                 </div>
                 <div class="p-staff__staff">
-                    <img class="p-staff__staffImage" src="~/assets/images/staff/0.png" alt="スタッフ写真">
+                    <img class="p-staff__staffImage" src="~/assets/images/staff/profileImg@2x.png" alt="スタッフ写真">
                     <p class="p-staff__staffName">山田太郎</p>
                 </div>
                 <div class="p-staff__staff">
-                    <img class="p-staff__staffImage" src="~/assets/images/staff/0.png" alt="スタッフ写真">
+                    <img class="p-staff__staffImage" src="~/assets/images/staff/profileImg@2x.png" alt="スタッフ写真">
                     <p class="p-staff__staffName">山田太郎</p>
                 </div>
                 <div class="p-staff__staff">
-                    <img class="p-staff__staffImage" src="~/assets/images/staff/0.png" alt="スタッフ写真">
+                    <img class="p-staff__staffImage" src="~/assets/images/staff/profileImg@2x.png" alt="スタッフ写真">
                     <p class="p-staff__staffName">山田太郎</p>
                 </div>
                 <div class="p-staff__staff">
-                    <img class="p-staff__staffImage" src="~/assets/images/staff/0.png" alt="スタッフ写真">
+                    <img class="p-staff__staffImage" src="~/assets/images/staff/profileImg@2x.png" alt="スタッフ写真">
                     <p class="p-staff__staffName">山田太郎</p>
                 </div>
                 <div class="p-staff__staff">
-                    <img class="p-staff__staffImage" src="~/assets/images/staff/0.png" alt="スタッフ写真">
+                    <img class="p-staff__staffImage" src="~/assets/images/staff/profileImg@2x.png" alt="スタッフ写真">
                     <p class="p-staff__staffName">山田太郎</p>
-                </div>
-                <div class="p-staff__staff">
-                </div>
-                <div class="p-staff__staff">
-                </div>
-                <div class="p-staff__staff">
-                </div>
-                <div class="p-staff__staff">
                 </div>
             </div>
         </div>
@@ -59,7 +51,6 @@
 
 <script>
 export default {
-    
 }
 </script>
 
@@ -89,20 +80,15 @@ export default {
         }
     }
     &__staffWrap {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 280px;
-        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
         @include desktop {
-            width: 100%;
+            grid-template-columns: repeat(6,1fr);
         }
     }
     &__staff {
+        text-align: center;
         margin-bottom: 95px;
-        @include desktop {
-            width: 16%;
-        }
     }
     &__staffImage {
         width: 80px;
