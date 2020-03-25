@@ -7,9 +7,9 @@
       <p class="c-hero__leadTxt">
         関西最大のPHPイベント開催決定！
       </p>
-      <date class="c-hero__date">
+      <div class="c-hero__date">
         5/9
-      </date>
+      </div>
       <p class="c-hero__location"><img src="@/assets/images/hero/place-24px.svg" class="c-hero__locationIcon" alt="location-pin" /> ブリーゼプラザ ホール&カンファレンス</p>
       <div class="c-hero__news">
         <router-link class="c-hero__text" to="/news">
