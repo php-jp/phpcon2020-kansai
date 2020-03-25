@@ -3,14 +3,11 @@
       <div class="l-container">
         <div class="p-about__title">about</div>
         <div class="p-about__intro">
-          <h2 class="p-about__secHeading">php conference Kansai 2020</h2>
+          <h2 class="p-about__secHeading">PHPカンファレンス関西2020とは</h2>
           <p class="p-about__read">
-            集え、PHPer！！<br>
-            PHPerのGWはこの日が本番<br>
-            あのPHPの祭典がついに帰ってきた！<br><br>
-            今回のテーマは「Share!!」<br><br>
-            当日はPHPに関するトークセッションのほか、懇親会やその他イベントを実施予定<br>
-            「PHPカンファレンス関西」で知識•技術•感動をみんなで分かち合おう！
+            PHPカンファレンス関西2020とは、PHPユーザ同士の交流によって、関西のPHPコミュニティを盛り上げることを目的とした、関西最大のPHPイベントです！！<br><br>
+            普段PHPを使った開発をしている方はもちろん、PHPに興味がある人や、昔利用していた人、これから学ぼうとしている人から学生の方まで、PHPに関わるすべての人が対象です。<br><br>
+            当日は一般公募された登壇者によるトークセッションや、懇親会をはじめとした、PHPに対する知識や理解を深め、参加者同士が交流できるような企画を開催します。
           </p>
         </div>
         <div class="p-about__past">
@@ -40,74 +37,58 @@ export default {
 
 .p-about {
   margin: 0 auto ;
-  padding-bottom: 67px;
+  padding-bottom: 40px;
   position: relative;
   color: $clr_accentcolor;
   background-color: $clr_basecolor;
   @include desktop {
     background-image:url("~assets/images/about/about_zou_left.png"),url("~assets/images/about/about_zou_right.png");
-    background-position: bottom 20px left 6%,bottom 20px right 0px;
+    background-position: bottom 20px left 6%,bottom 20px right 0;
     background-repeat: no-repeat;
     padding-bottom: 100px;
   }
 
   &__title {
     @include c-section-title;
-
   }
 
   &__intro {
     background-color: #ffffff;
     border-radius: 10px;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: bold;
-    @include desktop {
-      border-radius: 0px;
-    }
-    display: inline-block;
     padding: 30px 20px 36px 20px;
     width: 100%;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
     @include desktop {
-      text-align: center;
+      border-radius: 0;
       padding: 50px 80px 90px 80px;
       font-size: 2.8rem;
-      margin-bottom: 100px;
+      margin-bottom: 60px;
     }
   }
 
   &__secHeading {
-    display: inline-block;
     text-align: center;
     letter-spacing: 1.12px;
     font-size: 1.6rem;
     margin-bottom: 20px;
-
     @include desktop {
-    width: 434px;
-    height: 39px;
-    font-size: 2.8rem;
-    margin-bottom: 45px;
+      height: 39px;
+      font-size: 2.8rem;
+      margin-bottom: 45px;
     }
-
-
   }
 
   &__read {
-    display: inline-block;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: bold;
     text-align: center;
     font-size: 1.2rem;
     line-height: 2;
     @include desktop {
-    display: inline-block;
-    width: 683px;
-    height: 115px;
-    text-align: center;
-    font-size: 1.8rem;
-    line-height: 2;
+      text-align: center;
+      font-size: 1.8rem;
+      line-height: 2;
     }
   }
 
