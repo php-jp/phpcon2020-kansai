@@ -8,32 +8,30 @@
                 platinum
             </div>
             <div class="p-sponsor__platinum">
-                <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
-                <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
+                <img src="~/assets/images/sponsor/platinum@2x.png" alt="コールドスポンサーの会社">
+                <img src="~/assets/images/sponsor/platinum@2x.png" alt="コールドスポンサーの会社">
             </div>
 
             <div class="p-sponsor__titleSub">
                 gold
             </div>
             <div class="p-sponsor__gold">
-                <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
-                <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
-                <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
-                <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
-                <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
-                <div class="p-sponsor__empty"></div>
+                <img src="~/assets/images/sponsor/gold@2x.png" alt="コールドスポンサーの会社">
+                <img src="~/assets/images/sponsor/gold@2x.png" alt="コールドスポンサーの会社">
+                <img src="~/assets/images/sponsor/gold@2x.png" alt="コールドスポンサーの会社">
+                <img src="~/assets/images/sponsor/gold@2x.png" alt="コールドスポンサーの会社">
+                <img src="~/assets/images/sponsor/gold@2x.png" alt="コールドスポンサーの会社">
             </div>
 
             <div class="p-sponsor__titleSub">
                 silver
             </div>
             <div class="p-sponsor__silver">
-                <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
-                <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
-                <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
-                <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
-                <img src="~/assets/images/sponsor/0.png" alt="コールドスポンサーの会社">
-                <div class="p-sponsor__empty"></div>
+                <img src="~/assets/images/sponsor/silver@2x.png" alt="コールドスポンサーの会社">
+                <img src="~/assets/images/sponsor/silver@2x.png" alt="コールドスポンサーの会社">
+                <img src="~/assets/images/sponsor/silver@2x.png" alt="コールドスポンサーの会社">
+                <img src="~/assets/images/sponsor/silver@2x.png" alt="コールドスポンサーの会社">
+                <img src="~/assets/images/sponsor/silver@2x.png" alt="コールドスポンサーの会社">
             </div>
 
             <div class="p-sponsor__titleSub">
@@ -49,7 +47,6 @@
 
 <script>
 export default {
-    
 }
 </script>
 
@@ -82,47 +79,42 @@ export default {
     }
     &__platinum {
         text-align: center;
-        @include desktop {
-            display: flex;
-            justify-content: space-between;
-        }
+        letter-spacing: -.4em;
     }
     &__platinum img {
+        letter-spacing: normal;
         width: 280px;
-        margin-bottom: 20px;
+        margin: 0 0 20px;
         @include desktop {
             width: 435px;
-            margin-bottom: 70px;
+            margin: 0 10px 70px;
         }
     }
     &__gold {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        text-align: center;
+        letter-spacing: -.4em;
     }
     &__gold img {
+        letter-spacing: normal;
         width: 130px;
-        margin-bottom: 20px;
+        margin: 0 10px 20px;
         @include desktop {
             width: 280px;
-            margin-bottom: 50px;
+            margin: 0 15px 50px;
         }
     }
     &__silver {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        text-align: center;
+        letter-spacing: -.4em;
     }
     &__silver img {
+        letter-spacing: normal;
         width: 84px;
-        margin-bottom: 15px;
+        margin: 0 7.5px 15px;
         @include desktop {
             width: 194px;
-            margin-bottom: 55px;
+            margin: 0 20px 55px;
         }
-    }
-    &__empty {
-        width: 30%;
     }
     &__food {
         text-align: center;
