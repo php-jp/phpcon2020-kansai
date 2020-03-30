@@ -14,7 +14,7 @@
       <div class="c-hero__news">
         <router-link class="c-hero__text" to="/news">
           新型コロナウィルス感染症 (2019-nCoV, COVID-19) <br>
-        に関する対応方針について（2020年2月28日時点）
+        に関する対応方針について（2020年3月30日時点）
         </router-link>
       </div>
       <p class="c-hero__announce">スポンサー、登壇者募集開始！！</p>
