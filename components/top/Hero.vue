@@ -13,8 +13,8 @@
       <p class="c-hero__location"><img src="@/assets/images/hero/place-24px.svg" class="c-hero__locationIcon" alt="location-pin" /> ブリーゼプラザ ホール&カンファレンス</p>
       <div class="c-hero__news">
         <router-link class="c-hero__text" to="/news">
-          新型コロナウィルス感染症 (2019-nCoV, COVID-19) <br>
-        に関する対応方針について（2020年3月30日時点）
+          新型コロナウィルス感染症による開催見送りについて<br>
+          （2020年3月30日時点）
         </router-link>
       </div>
     </div>

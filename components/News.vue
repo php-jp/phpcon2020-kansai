@@ -3,7 +3,7 @@
       <div class="l-container">
         <div class="p-news__title">news</div>
         <div class="p-news__intro">
-          <h2 class="p-news__secHeading">新型コロナウィルス感染症に関する対応方針について</h2>
+          <h2 class="p-news__secHeading">新型コロナウィルス感染症による開催見送りについて</h2>
           <p class="p-news__read">
             PHPカンファレンス関西2020 運営委員長の加納悠史です。<br>
             このたび、PHPカンファレンス関西2020運営委員会は、新型コロナウィルス感染症 (COVID-19) の感染拡大を鑑み、2020年5月9日に予定しておりましたPHPカンファレンス関西2020の開催を断念することに決定いたしました。<br>
